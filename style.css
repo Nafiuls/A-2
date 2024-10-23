@@ -189,3 +189,43 @@ nav {
 .card-content h4 {
   font-size: 30px;
 }
+
+.run-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(65, 63, 63);
+  border-radius: 10px;
+  margin-top: 100px;
+}
+.run-content {
+  width: 40%;
+}
+
+.run-content h1 {
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+
+.run-content p {
+  margin-bottom: 20px;
+  color: gray;
+}
+
+.run-image {
+  width: 40%;
+}
+
+.run-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.run-btn {
+  border: none;
+  background-color: #e6533c;
+  color: white;
+  padding: 10px 50px;
+  border-radius: 30px;
+}

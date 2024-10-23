@@ -15,4 +15,16 @@
     flex-direction: column;
     gap: 20px;
   }
+
+  .run-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .run-content {
+    width: 100%;
+  }
+
+  .run-image {
+    width: 100%;
+  }
 }
