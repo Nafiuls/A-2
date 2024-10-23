@@ -144,9 +144,48 @@ nav {
   backdrop-filter: blur(8px);
   position: absolute;
   top: 180px;
-  right: 0px;
+  right: 20px;
 }
 
 .video p {
   color: gray;
+}
+
+/* banner styles ends here */
+
+/* habit section styles starts here */
+
+.habit-content {
+  text-align: center;
+  margin-top: 100px;
+}
+.habit-content h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.habit-content p {
+  color: gray;
+}
+
+.card-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-image img {
+  border-radius: 50%;
+  width: 100%;
+}
+.card-content {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.card-content p {
+  color: gray;
+}
+.card-content h4 {
+  font-size: 30px;
 }

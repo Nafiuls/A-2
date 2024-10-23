@@ -8,5 +8,11 @@
 
   .main-banner {
     flex-direction: column;
+    gap: 50px;
+  }
+
+  .card-container {
+    flex-direction: column;
+    gap: 20px;
   }
 }
