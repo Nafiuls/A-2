@@ -52,4 +52,15 @@
   .activity {
     width: 100%;
   }
+
+  .team-img-container {
+    gap: 5px;
+  }
+
+  .name h3 {
+    font-size: 10px;
+  }
+  .name p {
+    font-size: 8px;
+  }
 }
