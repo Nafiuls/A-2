@@ -361,3 +361,18 @@ input::placeholder {
 .trainer {
   text-align: left;
 }
+
+/* about section styles start here */
+.about {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.about h1 {
+  margin-bottom: 50px;
+}
+
+.fit {
+  color: #e6533c;
+  font-style: italic;
+}
