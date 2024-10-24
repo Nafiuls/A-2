@@ -1,4 +1,7 @@
 @media screen and (max-width: 600px) {
+  #main {
+    padding: 10px;
+  }
   .nav-menu-container {
     display: none;
   }
@@ -67,5 +70,23 @@
   }
   .name p {
     font-size: 10px;
+  }
+
+  footer {
+    padding: 10px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .footer-flex {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .hr {
+    margin: 10px 0;
   }
 }
