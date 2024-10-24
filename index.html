@@ -171,9 +171,68 @@
             <img src="./images/run.jpg" alt="" />
           </div>
         </div>
+        <div class="bmi-container">
+          <div class="bmi-table">
+            <h1>BMI Calculator Chart</h1>
+            <table>
+              <tr>
+                <th>BMI</th>
+                <th>Weight Status</th>
+              </tr>
+              <tr>
+                <td>Below 18.5</td>
+                <td>Underweight</td>
+              </tr>
+              <tr>
+                <td>18.5 - 24.9</td>
+                <td>Healthy</td>
+              </tr>
+              <tr>
+                <td>25.0 - 29.9</td>
+                <td>Overweight</td>
+              </tr>
+              <tr>
+                <td>30 - and Avobe</td>
+                <td>Obese</td>
+              </tr>
+            </table>
+          </div>
+          <!-- bmi calculator -->
+          <div class="bmi-calculator">
+            <div class="calculator-content">
+              <h1>Calculate Your BMI</h1>
+              <p>
+                We believe fitness should be accessible to everyone, everywhere,
+                regardless of income or access to a gym
+              </p>
+            </div>
+            <!-- BMI FORM -->
+            <form>
+              <div>
+                <input type="text" placeholder="Height/CM" />
+                <input type="text" placeholder="Weight/KG" />
+              </div>
+              <div>
+                <input type="number" placeholder="Age" />
+                <select>
+                  <option value="Sex">Sex</option>
+                  <option value="Sex">Male</option>
+                  <option value="Sex">Female</option>
+                </select>
+              </div>
+              <div>
+                <input
+                  class="activity"
+                  type="text"
+                  placeholder="Select an activity factor"
+                />
+              </div>
+              <button class="form-btn">Calculate</button>
+            </form>
+          </div>
+        </div>
         <!-- run extra container ends here -->
       </main>
-      <!-- main section ends here -->
     </div>
   </body>
 </html>

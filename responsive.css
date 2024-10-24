@@ -27,4 +27,29 @@
   .run-image {
     width: 100%;
   }
+  .bmi-container {
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 50px;
+  }
+
+  .bmi-table {
+    width: 100%;
+  }
+
+  .bmi-calculator {
+    width: 100%;
+  }
+  form div {
+    flex-direction: column;
+  }
+
+  form input,
+  select {
+    width: 100%;
+  }
+
+  .activity {
+    width: 100%;
+  }
 }
